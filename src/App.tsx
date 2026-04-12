@@ -132,8 +132,15 @@ export default function App() {
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-8 pt-4 pb-16 md:py-24 relative min-h-[85vh] flex items-center justify-start text-start">
         <div className="absolute inset-0 w-full h-full -z-10 overflow-hidden rounded-b-[3rem] md:rounded-[3rem]">
-           <div className="absolute inset-0 bg-white/20 z-10"></div>
-           <img src="https://i.ibb.co/3y6jrnqD/Capture-d-cran-2026-04-07-193805.png" alt="Background" className="w-full h-full object-cover scale-105" referrerPolicy="no-referrer" />
+           <div className="absolute inset-0 bg-white/40 z-10"></div>
+           <video 
+             src="https://res.cloudinary.com/ddfazkkij/video/upload/q_auto/f_auto/v1775998308/Chef_slicing_salmon_202604121451_kpuxfp.mp4" 
+             className="w-full h-full object-cover scale-105" 
+             autoPlay 
+             loop 
+             muted 
+             playsInline 
+           />
         </div>
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
